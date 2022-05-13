@@ -22,7 +22,7 @@ fileZone.addEventListener("drop", (e) => {
     gallery.innerHTML += `
     <div class="col-md-3">
    
-        <img src="${fileReader.result}" class="img-fluid" alt="" />
+        <img src="${fileReader.result}" class="img-fluid class="col-12" alt="" />
         <button class="btn  dwn-btn">Download  <i id="icon" class="fa-solid fa-file-arrow-down downlad-icon"></i></button>
     </div>
     `;
