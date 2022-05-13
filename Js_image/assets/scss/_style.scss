@@ -1,0 +1,32 @@
+.file-zone {
+    height: 300px;
+    border: 2px dashed red;
+    border-radius: 5px;
+    margin-top: 50px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form{
+        input{
+            display: none;
+        }
+        .downlad-icon{
+            font-size: 40px;
+            color: red;
+            cursor: pointer;
+        }
+    }
+  }
+  
+  img {
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .dwn-btn{
+      width: 100%;
+      margin-top: 10px;
+      border: 1px solid rgb(39, 221, 39);
+      color: rgb(39, 221, 39);
+  }
+  

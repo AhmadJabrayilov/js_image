@@ -1,0 +1,37 @@
+.file-zone {
+  height: 300px;
+  border: 2px dashed red;
+  border-radius: 5px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.file-zone form input {
+  display: none;
+}
+
+.file-zone form .downlad-icon {
+  font-size: 40px;
+  color: red;
+  cursor: pointer;
+}
+
+img {
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.dwn-btn {
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid #27dd27;
+  color: #27dd27;
+}
